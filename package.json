@@ -1,0 +1,43 @@
+{
+  "name": "labmai-build-after-webpack-plugin",
+  "private": false,
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.cjs",
+  "type": "commonjs",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "homepage": "https://github.com/LittleZhaoLearnsFromTheFront",
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "unbuild"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "webpack",
+    "plugin",
+    "javaScript",
+    "typeScript",
+    "shell",
+    "react",
+    "vue",
+    "build"
+  ],
+  "author": "zhaohx0409@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/prompts": "^2.4.9",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "yaml": "^2.4.1"
+  }
+}
